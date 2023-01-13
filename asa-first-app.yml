@@ -1,14 +1,10 @@
-app:
-  message1: "This is CC message 1 after main update"
-  message2: "This is CC message 2"
-
 spring:
   cloud:
     service-registry:
       auto-registration:
         enabled: true
   application:
-    name: asa-second-app
+    name: asa-first-app
 
 eureka:
   client:
